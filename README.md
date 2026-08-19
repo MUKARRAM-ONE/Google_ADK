@@ -58,8 +58,8 @@ Open `http://127.0.0.1:8000` in your browser.
 
 ### 2. Dev Tunnels / Public / Network Access
 If using VS Code Dev Tunnels, Ngrok, or accessing from another device on the network, start ADK with:
-```bash
-uv run adk web --host 0.0.0.0 --port 8000 --allow_origins "*"
+```powershell
+uv run adk web --host 0.0.0.0 --port 8000 --allow_origins='*' .
 ```
 
 ---
