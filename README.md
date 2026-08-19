@@ -50,11 +50,17 @@ Or download the installer from [Tesseract OCR for Windows](https://github.com/UB
 
 ## Running the Agent
 
-### Start the Interactive Web UI
+### 1. Local Browser Access
 ```bash
 uv run adk web
 ```
 Open `http://127.0.0.1:8000` in your browser.
+
+### 2. Dev Tunnels / Public / Network Access
+If using VS Code Dev Tunnels, Ngrok, or accessing from another device on the network, start ADK with:
+```bash
+uv run adk web --host 0.0.0.0 --port 8000 --allow_origins "*"
+```
 
 ---
 
