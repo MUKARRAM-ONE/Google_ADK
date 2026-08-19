@@ -147,7 +147,7 @@ activemq-data/
 # SageMath parsed files
 *.sage.py
 
-# Environments
+# Environments & ADK Local State
 .env
 .envrc
 .venv
@@ -156,6 +156,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.adk/
+tools/.active_tabs.json
 
 # Spyder project settings
 .spyderproject

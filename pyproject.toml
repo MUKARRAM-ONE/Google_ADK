@@ -1,0 +1,13 @@
+[project]
+name = "adk-multi-agent"
+version = "0.1.0"
+description = "Multi-agent system built with Google ADK"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "google-adk>=2.7.1",
+    "pillow>=12.3.0",
+    "pytesseract>=0.3.13",
+    "python-dotenv>=1.2.3",
+    "pywinauto>=0.6.9",
+]
